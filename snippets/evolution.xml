@@ -74,8 +74,6 @@
 
   <!-- Infrastructure -->
   <project path="evolution/manifest" name="manifest" remote="evo" />
-  <project path="evolution/OTA" name="OTA" remote="evo" />
-  <project path="evolution/OTA-VANILLA" name="OTA" remote="evo" revision="bka-vanilla" />
 
   <!-- Kernel -->
   <project path="kernel/configs" name="kernel_configs" groups="vts,pdk" remote="evo" />
@@ -102,7 +100,6 @@
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="evo" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" groups="apps_stk,pdk-fs" remote="evo" />
   <project path="packages/apps/ThemeStore" name="packages_apps_ThemeStore" remote="evo" />
-  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="evo" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" remote="evo" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk" remote="evo" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="evo" />
